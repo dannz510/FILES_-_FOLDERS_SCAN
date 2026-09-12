@@ -1,2 +1,6 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+*.html linguist-vendored
+*.htm linguist-vendored
+*.tex linguist-vendored
+
+# Ép GitHub nhận diện toàn bộ file trong project là Python
+*.py linguist-language=Python
