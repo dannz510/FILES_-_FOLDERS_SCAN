@@ -1,6 +1,8 @@
+
 *.html linguist-vendored
 *.htm linguist-vendored
 *.tex linguist-vendored
+*.pdf linguist-vendored
 
-# Ép GitHub nhận diện toàn bộ file trong project là Python
+# Ép nhận diện chính cho các file Python
 *.py linguist-language=Python
