@@ -1,8 +1,12 @@
+# Bỏ qua hoàn toàn TeX, HTML và Inno Setup khỏi thống kê ngôn ngữ
+*.tex linguist-detectable=false
+*.sty linguist-detectable=false
+*.html linguist-detectable=false
+*.htm linguist-detectable=false
+*.iss linguist-detectable=false
 
-*.html linguist-vendored
-*.htm linguist-vendored
-*.tex linguist-vendored
-*.pdf linguist-vendored
+# Nếu có file Markdown (.md) bị nhầm thành TeX thì dùng thêm dòng này
+*.md linguist-detectable=false
 
-# Ép nhận diện chính cho các file Python
+# Đảm bảo nhận diện Python là ngôn ngữ chính
 *.py linguist-language=Python
