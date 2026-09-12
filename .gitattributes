@@ -1,12 +1,11 @@
-# Bỏ qua hoàn toàn TeX, HTML và Inno Setup khỏi thống kê ngôn ngữ
+# Đánh dấu các file Markdown / Release Notes / Documentation là tài liệu (Documentation) -> Không tính vào phần trăm ngôn ngữ lập trình
+*.md linguist-documentation
+*.txt linguist-documentation
+docs/* linguist-documentation
+
+# Ẩn hoàn toàn các file TeX/LaTeX (nếu có lưu trong repo) khỏi thanh thống kê
 *.tex linguist-detectable=false
 *.sty linguist-detectable=false
-*.html linguist-detectable=false
-*.htm linguist-detectable=false
-*.iss linguist-detectable=false
 
-# Nếu có file Markdown (.md) bị nhầm thành TeX thì dùng thêm dòng này
-*.md linguist-detectable=false
-
-# Đảm bảo nhận diện Python là ngôn ngữ chính
+# Ép nhận diện Python là ngôn ngữ code chính
 *.py linguist-language=Python
