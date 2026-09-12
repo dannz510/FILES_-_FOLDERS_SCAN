@@ -26,21 +26,21 @@ It provides a lightweight workflow for developers who want to perform basic secu
 AppScan is organized around a simple scanning workflow:
 
 ```text
-Source Code
-    │
-    ▼
+      Source Code
+           │
+           ▼
 ┌─────────────────────┐
 │      AppScan        │
 │                     │
 │  ┌───────────────┐  │
 │  │ Source Scanner│  │
 │  └───────┬───────┘  │
-│          │           │
+│          │          │
 │  ┌───────▼───────┐  │
 │  │  Dependency   │  │
 │  │    Checker    │  │
 │  └───────┬───────┘  │
-│          │           │
+│          │          │
 │  ┌───────▼───────┐  │
 │  │    Report     │  │
 │  │   Generator   │  │
