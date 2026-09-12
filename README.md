@@ -80,7 +80,7 @@ appscan/
 ### Clone the Repository
 
 ```powershell
-git clone https://github.com/dannz510/appscan.git
+git clone https://github.com/dannz510/FILES_-_FOLDERS_SCAN.git
 cd appscan
 ```
 
